@@ -1,0 +1,74 @@
+*mercury-colorscheme.txt*
+
+							 MERCURY COLORSCHEME
+
+Author:		Junchen Du <sotvokun#outlook.com>
+Created:	2022-12-27
+
+==============================================================================
+1. Introduction											*mercury-introduction*
+
+Mercury is a colorscheme only uses colors from the 256 (Xterm) color palette.
+
+Mercury is inspired by the following colorschemes:
+
+ - https://github.com/kkga/vim-envy
+ - https://github.com/kkga/saturn.kak
+
+The colorscheme creation is inspired by：
+
+ - https://github.com/dracula/vim 
+
+==============================================================================
+2. Terminal colors									 *mercury-terminal-colors*
+
+Name				Hex             256-colors-code
+----------------------------------------------------
+black				#1C1C1C				234
+red					#870000				 88
+green				#008700				 28
+yellow				#AF5F00				130
+blue				#005FAF				 25
+magenta				#8700AF				 91
+cyan				#005F87				 24
+white				#EEEEEE				255
+
+bright-black		#000000				  0
+bright-red			#D70000				160
+bright-green		#5FAF00				 70
+bright-yellow		#FFAF00				214
+bright-blue			#0087D0				 32
+bright-magenta		#AF00FF				129
+bright-cyan			#00AFAF				 37
+bright-white		#FFFFFF				 15
+
+
+==============================================================================
+3. Colorful       											*mercury-colorful*
+
+Family		Hexs								color-codes
+            DARKER  DARK    LIGHT   LIGHTER
+---------------------------------------------------------------
+red			#5F0000 #870000 #D70000 #FFD7D7		 52  88 160 224
+green      	#005F00 #008700 #5FAF00 #87D787   	 22  28  70 114
+yellow     	#875F00 #AF5F00 #FFAF00 #FFD787   	 94 130 214 221
+blue       	#00005F #005FAF #0087D0 #87D7FF   	 17  25  32 117
+magenta    	#5F0087 #8700AF #AF00FF #D7D7FF   	 54  91 129 189
+
+
+==============================================================================
+4. Grayscale											   *mercury-grayscale*
+
+Name				Hex                     256-color-code
+-----------------------------------------------------------
+black-sp			#121212						233
+black       		#000000                 	  0
+darkest     		#1C1C1C                 	234
+darker      		#3A3A3A                 	237
+dark        		#4E4E4E                 	239
+gray        		#6C6C6C                 	242
+light       		#A8A8A8                 	248
+lighter     		#C6C6C6                 	251
+lightest    		#E4E4E4                 	254
+white       		#FFFFFF                 	 15
+white-sp    		#EEEEEE                 	255
