@@ -4,7 +4,8 @@
 "
 " Author:  Junchen Du <sotvokun#outlook.com>
 " Created: 2022-12-27
-" LICENSE: UNLICENSED
+" Updated: 2023-07-25
+" LICENSE: UNLICENSE
 "
 " ==============================================================================
 
@@ -17,7 +18,9 @@ endif
 
 let g:colors_name = 'mercury'
 
-if !(has('termguicolors') && &termguicolors) && !t_Co != 256
+let s:has_termguicolors = !(has('termguicolors') && &termguicolors)
+
+if !(has('nvim')) && !s:has_termguicolors && !t_Co != 256
   echoerr "'mercury' only supports 256-colors terminal and the options 'termguicolors' is enabled"
   finish
 endif
