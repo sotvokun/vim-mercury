@@ -329,7 +329,7 @@ call s:L('String', ['SpecialChar', 'Character'])
 "         SpecialChar            special character in a constant
 "         Character              a character constant: 'c', '\n'
 
-call s:H('Boolean', s:k.blue.bright, s:none, [s:a.bold])
+call s:H('Boolean', s:k.blue.normal, s:none, [s:a.bold])
 "         Boolean                a boolean constant: TRUE, false
 
 call s:H('Number', s:k.blue.normal)
@@ -481,6 +481,11 @@ call s:H('DiffText', s:k.fg.inverse, s:k.yellow.bright, [s:a.underline])
 call s:H('NvimInternalError', s:c.darker_red, s:c.light_red)
 
 " }}}
+" FloatWindow: {{{
+"
+call s:H('NormalFloat', s:none, s:k.bg.popup)
+"
+" }}}
 
 
 " Extensions ------------------------------------------------------------------
@@ -493,11 +498,11 @@ call s:H('MatchParen', s:k.fg.inverse, s:k.yellow.bright)
 
 call s:H('DiagnosticError', s:k.red.normal)
 call s:H('DiagnosticWarn', s:k.yellow.normal)
-call s:H('DiagnosticInfo', s:k.blue.bright)
+call s:H('DiagnosticInfo', s:k.cyan.normal)
 call s:H('DiagnosticHint', s:k.fg.brighter)
 call s:H('DiagnosticUnderlineError', s:k.red.normal, s:none, [s:a.underline])
 call s:H('DiagnosticUnderlineWarn', s:k.yellow.normal, s:none, [s:a.underline])
-call s:H('DiagnosticUnderlineInfo', s:k.blue.bright, s:none, [s:a.underline])
+call s:H('DiagnosticUnderlineInfo', s:k.cyan.normal, s:none, [s:a.underline])
 call s:H('DiagnosticUnderlineHint', s:k.fg.brighter, s:none, [s:a.underline])
 
 " }}}
