@@ -2,7 +2,7 @@
 " mercury.vim - a simple colorscheme with low contrast
 " Author:  Junchen Du <sotvokun#outlook.com>
 " Created: 2022-12-27
-" Updated: 2024-07-31
+" Updated: 2024-08-02
 " License: UNLICENSE
 " -----------------------------------------------------------------------------
 
@@ -505,6 +505,11 @@ call s:H('DiagnosticUnderlineWarn', s:k.yellow.normal, s:none, [s:a.underline])
 call s:H('DiagnosticUnderlineInfo', s:k.cyan.normal, s:none, [s:a.underline])
 call s:H('DiagnosticUnderlineHint', s:k.fg.brighter, s:none, [s:a.underline])
 
+" }}}
+" Sneak: {{{
+call s:H('Sneak', s:g.darkest, s:k.yellow.normal)
+call s:H('SneakLabel', s:g.darkest, s:k.yellow.normal)
+call s:H('SneakLabelMask', s:k.yellow.normal)
 " }}}
 
 
